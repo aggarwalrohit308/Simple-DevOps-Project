@@ -13,7 +13,7 @@
    tar -xvzf /opt/apache-tomcat-<version>.tar.gz
    or 
    amazon-linux-extras list
-   sudo amazon-linux-extras inst
+   sudo amazon-linux-extras install tomcat8.5
    
    $ cd /usr/share/tomcat/webapps
     $ sudo mkdir ROOT

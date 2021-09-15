@@ -11,6 +11,16 @@
    cd /opt
    wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
    tar -xvzf /opt/apache-tomcat-<version>.tar.gz
+   or 
+   amazon-linux-extras list
+   sudo amazon-linux-extras inst
+   
+   $ cd /usr/share/tomcat/webapps
+    $ sudo mkdir ROOT
+    $ cd ROOT/
+    $ sudo vi index.html #add some HTML content
+    all tomcat8.5
+   sudo systemctl start tomcat
    ```
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
    ```sh

@@ -28,6 +28,7 @@
    ```sh
    docker run -d --name test-tomcat-server -p 8090:8080 tomcat:latest
    ```
+    docker run -d --name test-tomcat-server -p 8090:8080 tomcat:8.0
 
 ## Docker Installation on CentOS server
 ##### Referance URL : https://docs.docker.com/install/linux/docker-ce/centos/#install-using-the-repository
